@@ -58,7 +58,7 @@ create view genderStatsView as select countryname, countryabbr, info, infoabbr,
 --- QUERY 1 --
 -- Identify the countries where % of female graduates is less than 30;
 
-select countryname, femalegraduates from (select countryname, coalesce(y2016, y2015, y2014, y2014, y2013, y2012, y2011, y2010, y2009, y2008, y2007, y2006, y2005, y2004, y2003, y2002, y2001, y2000, 0) as femalegraduates from genderstatsview where infoabbr = 'SE.PRM.CMPL.FE.ZS') tb1 where tb1.femalegraduates != 0 and tb1.femalegraduates < 30;
+select countryname, femalegraduates from (select countryname, coalesce(y2016, y2015, y2014, y2014, y2013, y2012, y2011, y2010, y2009, y2008, y2007, y2006, y2005, y2004, y2003, y2002, y2001, y2000, 31) as femalegraduates from genderstatsview where infoabbr = 'SE.PRM.CMPL.FE.ZS') tb1 where tb1.femalegraduates < 30;
 
 select 
     countryname, 
@@ -66,17 +66,16 @@ select
     from 
         (select 
             countryname, 
-            coalesce(y2016, y2015, y2014, y2014, y2013, y2012, y2011, y2010, y2009, y2008, y2007, y2006, y2005, y2004, y2003, y2002, y2001, y2000, 0) as femalegraduates 
+            coalesce(y2016, y2015, y2014, y2014, y2013, y2012, y2011, y2010, y2009, y2008, y2007, y2006, y2005, y2004, y2003, y2002, y2001, y2000, 31) as femalegraduates 
             from genderstatsview 
             where infoabbr = 'SE.PRM.CMPL.FE.ZS') tb1 
-    where tb1.femalegraduates != 0 and tb1.femalegraduates < 30;
+    where tb1.femalegraduates < 30;
 
 --- QUERY 2 --
 -- List the average increase in female education in the US from the year 2000;
 
 select 
     countryname, 
-    increase
     (coalesce(y2016,y2015,y2014,y2013,0) 
     - coalesce(y2000,y1999,y1998,y1997,0))/2 as increase 
     from genderstatsview 
