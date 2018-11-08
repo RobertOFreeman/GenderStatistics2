@@ -1,0 +1,50 @@
+Element / Value,Description,Data Type,Character Length,Acceptable Values,Required?,Accepts Null?
+c_name,Name of Country/Region,String,-,"Arab World, China, Sweden",,Yes
+c_code,Country / Region Acronym,String,-,"ARB, CHN, VNM, MLT",,Yes
+i_name,Name of Statistic Descriptor,String,-,"""Labor force with intermediate education"", ""Employment in services, male (% of male employment)"", ""Employment to population ratio, 15+, female (%) (modeled ILO estimate)""",,Yes
+i_code,Unique Indicator Code Per Country,String,-,"SG.DMK.VISI.SE.ZS, SG.GEN.MNST.ZS, SG.RSX.TIRD.Q1.ZS",,Yes
+1960,Data for year 1960,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1961,Data for year 1961,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1962,Data for year 1962,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1963,Data for year 1963,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1964,Data for year 1964,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1965,Data for year 1965,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1966,Data for year 1966,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1967,Data for year 1967,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1968,Data for year 1968,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1969,Data for year 1969,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1970,Data for year 1970,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1971,Data for year 1971,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1972,Data for year 1972,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1973,Data for year 1973,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1974,Data for year 1974,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1975,Data for year 1975,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1976,Data for year 1976,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1977,Data for year 1977,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1978,Data for year 1978,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1979,Data for year 1979,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1980,Data for year 1980,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1981,Data for year 1981,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1982,Data for year 1982,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1983,Data for year 1983,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1984,Data for year 1984,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1985,Data for year 1985,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1986,Data for year 1986,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1987,Data for year 1987,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1988,Data for year 1988,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1989,Data for year 1989,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1990,Data for year 1990,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1991,Data for year 1991,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1992,Data for year 1992,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1993,Data for year 1993,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1994,Data for year 1994,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1995,Data for year 1995,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1996,Data for year 1996,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1997,Data for year 1997,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1998,Data for year 1998,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+1999,Data for year 1999,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+2000,Data for year 2000,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+2001,Data for year 2001,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+2002,Data for year 2002,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+2003,Data for year 2003,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
+2004,Data for year 2004,Double,-,"""58.7200012207031"", "" "", ""0"", ""137669""",No,Yes
